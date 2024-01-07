@@ -9,6 +9,7 @@ deck = ['1s',	'2s' ,'3s'	,'4s',	'5s',	'6s',	'7s',	'8s',	'9s',	'xs'	,'js',	'qs',	
 ]
 
 # print(deck[12].startswith('k'))
+# print(deck[25].startswith('k'))
 
 cnt = 0
 for i in range(1,1000):
@@ -20,14 +21,3 @@ for i in range(1,1000):
         break
 probab = cnt/1000
 print(probab)
-
-
-
-
-
-
-
-
-
-
-
